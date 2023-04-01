@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* #region Barra de navegación*/
+.navbar{
+    background-color: white;
+}
+
+.navbar-brand{
+    color: sandybrown;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.navbar-brand:hover{
+    color: sandybrown;
+}
+
+.navbar-brand img{
+    height: 40px;
+}
+
+.nav-item{
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+.nav-item:hover{
+    transform: scale(1.2);
+}
+
+/* #endregion */
+
+.bg-custom-1{
+    background-color: #f4a460;
+}
