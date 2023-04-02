@@ -31,6 +31,10 @@
     transform: scale(1.2);
 }
 
+.w-100{
+    height: 100vh;
+}
+
 /* #endregion */
 
 .bg-custom-1{
