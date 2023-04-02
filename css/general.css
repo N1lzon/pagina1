@@ -36,3 +36,47 @@
 .bg-custom-1{
     background-color: #f4a460;
 }
+
+/* #region Footer*/
+.footer{
+    background-color: sandybrown;
+    margin-top: 10px;
+}
+
+.footer .text{
+    color: white;
+    text-align: right;
+    margin-top: 3%;
+}
+
+.footer .logo{
+    margin-top: 2%;
+}
+
+.footer .logo img{
+    height: 100px;
+    margin-left: 9%;
+}
+
+.footer h2{
+    font-family: 'Righteous', cursive;
+    color: white;
+}
+
+.footer h3{
+    font-size: 20px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.footer h4{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer-img{
+    left: 0;
+    max-width: 100%;
+}
+/* #endregion */
