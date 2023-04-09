@@ -35,6 +35,26 @@
     height: 100vh;
 }
 
+.btn-clima{
+    border: 0;
+    background-color: rgba(0,0,0, 0);
+    align-items: center;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+.modal-body{
+    align-items: center;
+}
+
+.w-temp,.w-desc{
+    text-align: center;
+    text-transform: capitalize;
+}
+.w-icon{
+    margin-left: 44%;
+}
+
 /* #endregion */
 
 .bg-custom-1{
