@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 </head> 
-<body>
+<body onload="check(),clock()">
     
     <!-- #region Barra de navegación-->
     <nav class="navbar sticky-top navbar-expand-lg bg-white shadow-sm">
@@ -55,6 +55,7 @@
                     <img src="" alt="" class="w-icon" id="w-icon">
                     <p class="w-desc" id="w-desc"></p>
                     <p class="w-temp" id="w-temp"></p>
+                    <p class="w-clock" id="w-clock"></p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>

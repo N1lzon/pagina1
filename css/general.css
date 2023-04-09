@@ -47,7 +47,7 @@
     align-items: center;
 }
 
-.w-temp,.w-desc{
+.w-temp,.w-desc,.w-clock{
     text-align: center;
     text-transform: capitalize;
 }
