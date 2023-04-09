@@ -7,5 +7,17 @@ function check(){
             document.getElementById("w-icon").src="https://openweathermap.org/img/wn/"+data.weather[0].icon+".png";
             document.getElementById("w-desc").innerHTML=data.weather[0].description;
         })
-        
+}
+
+function clock(){
+    var time = 1000;
+    let url = "http://worldtimeapi.org/api/timezone/America/Asuncion"
+    fetch(url)
+        .then((res) => res.json())
+        .then((data) => {
+            document.getElementById("w-clock").innerHTML="Hora: "+data.datetime;
+        })
+    
+        setTimeout("clock()",time);
+
 }
