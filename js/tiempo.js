@@ -15,7 +15,9 @@ function clock(){
     fetch(url)
         .then((res) => res.json())
         .then((data) => {
-            document.getElementById("w-clock").innerHTML="Hora: "+data.datetime;
+            var hora1 = JSON.stringify(data.datetime);
+            var hora2 = hora1.substring(12,20);
+            document.getElementById("w-clock").innerHTML="Hora: "+hora2;
         })
     
         setTimeout("clock()",time);
