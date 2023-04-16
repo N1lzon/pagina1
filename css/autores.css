@@ -71,5 +71,9 @@ button:hover{
     .btn{
         font-size: 15px;
     }
+
+    .info{
+        margin-bottom: 220px;
+    }
     
 }
