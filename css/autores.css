@@ -1,0 +1,75 @@
+.nombres{
+    margin-top: 20px;
+}
+
+.nombre1{
+    border-width: 0;
+    background-color: rgba(12, 12, 12, 0);
+    font-size: 25px;
+}
+.nombre2{
+    border-width: 0;
+    background-color: rgba(12, 12, 12, 0);
+    font-size: 25px;
+}
+.nombre3{
+    border-width: 0;
+    background-color: rgba(12, 12, 12, 0);
+    font-size: 25px;    
+    color: black;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    margin-bottom: 15px;
+}
+
+.info{
+    margin-top: 20px;
+}
+
+.icono{
+    width: 60%;
+    border-radius: 10px;
+}
+
+.usuario{
+    margin-bottom: 10%;
+}
+
+.btn{
+    margin-top: 10%;
+    background-color: sandybrown;
+    border-width: 0;  
+}
+
+.btn:hover{
+    background-color: sandybrown;
+    border-width: 0;  
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+@media only screen and  (max-width: 767px) {
+	.nombre1{
+        font-size: 18px;
+    }
+    .nombre2{
+        font-size: 18px;
+    }
+    .nombre3{
+        font-size: 18px;
+    }
+    
+    .icono{
+        width: 150px;
+    }
+
+    .btn{
+        font-size: 15px;
+    }
+    
+}
